@@ -1,7 +1,7 @@
 # Maintainer: Tiago Brait <tiagobrait AT gmail DOT com>
 
 pkgname=ca-certificates-icp_br
-pkgver=20160916
+pkgver=20161106
 pkgrel=1
 pkgdesc="Brazilian government Certification Authorities"
 arch=('any')
@@ -13,7 +13,7 @@ source=(
     "icpbr_certs-${pkgver}.zip::http://acraiz.icpbrasil.gov.br/credenciadas/CertificadosAC-ICP-Brasil/ACcompactado.zip"
     )
 
-sha512sums=('5af29a537927d53d1e9e842ba18da781f9c2cc514fab94c798c0c3a6317dc236ccb3aa5fbca1a4c0d174b6dc0a8d8fc1c0be3b0578e2fece616a4dc398f09e22')
+sha512sums=('123ee1a3e04c667e0f0b86145f68d401e9915b0656ac7ddc7ef7bd81c1058ae9e748a11f045c4780fc76d18e8f73784e9297ce6ad357da8d55925a93a29883e5')
 
 package() {
   local cert_tag='icp_br'
